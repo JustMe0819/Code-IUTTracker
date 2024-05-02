@@ -1,0 +1,25 @@
+* {
+    background-color: black;
+}
+
+h1.titre {
+    color: white;
+}
+
+fieldset {
+    color: white;
+}
+
+button {
+    color: black;
+    background-color: gray;
+}
+
+input {
+    color: black;
+    background-color: gray;
+}
+
+form.admin {
+    justify-content: center;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>IutTracker</title>
+</head>
+<body>
+    <h1 class="titre">Connexion</h1>
+    <form id="form" action="#">
+<fieldset>
+    <legend><b>Enseignant</b></legend>
+    <table border="0">
+    <tr>
+        <td><label>Identifiant :</label></td>
+        <td><input type="text" name="id" id="obligatoire" size="40" maxlength="100"/></td>
+    </tr>
+    <tr>
+        <td><label>Mot de passe :</label></td>
+        <td><input type="password" name="mdp" id="ob2" size="40" maxlength="30"/></td>
+    </tr>
+</table>
+<button value="envoyer" onclick="validateForm()">Envoyer</button>
+
+<!-- <script>
+    function validateForm() {
+      var tr = document.getElementById("obligatoire").value;
+      console.log(tr)
+      if (tr == "") {
+        alert("Le champ 'identifiant' est obligatoire !");
+        return false;
+      }
+    }
+    </script>
+    <script>
+        function validateForm() {
+          var tr = document.getElementById("ob2").value;
+          console.log(tr)
+          if (tr == "") {
+            alert("Le champ 'mot de passe' est obligatoire !");
+            return false;
+          }
+        }
+        </script> -->
+</fieldset> 
+</form> 
+
+<br>
+
+<form id="form2" action="#">
+<fieldset>
+    <legend><b>Etudiant</b></legend>
+    <table border="0">
+    <tr>
+        <td><label>Identifiant :</label></td>
+        <td><input type="text" name="id" id="ob3" size="40" maxlength="100"/></td>
+    </tr>
+    <tr>
+        <td><label>Mot de passe :</label></td>
+        <td><input type="password" name="mdp" id="ob4" size="40" maxlength="30"/></td>
+    </tr>
+</table>
+<button value="envoyer" onclick="validateForm()">Envoyer</button>
+
+<!-- <script>
+    function validateForm() {
+      var tr = document.getElementById("ob3").value;
+      console.log(tr)
+      if (tr == "") {
+        alert("Le champ 'identifiant' est obligatoire !");
+        return false;
+      }
+    }
+    </script>
+    <script>
+        function validateForm() {
+          var tr = document.getElementById("ob4").value;
+          console.log(tr)
+          if (tr == "") {
+            alert("Le champ 'mot de passe' est obligatoire !");
+            return false;
+          }
+        }
+        </script> -->
+</fieldset>
+</form>
+
+<br>
+
+<form id="form3" action="#">
+<fieldset>
+    <legend><b>Administrateur</b></legend>
+    <table border="0">
+    <tr>
+        <td><label>Identifiant :</label></td>
+        <td><input type="text" name="id" id="ob5" size="40" maxlength="100"/></td>
+    </tr>
+    <tr>
+        <td><label>Mot de passe :</label></td>
+        <td><input type="password" name="mdp" id="ob6" size="40" maxlength="30"/></td>
+    </tr>
+</table>
+<button value="envoyer" onclick="validateForm()">Envoyer</button>
+
+</form>
+</body>
+</html>
